@@ -1,0 +1,176 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --accent-buton-color: #188ce8;
+  --filter-button-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
+  --logo-dark-color: #000000;
+  --main-title-color: #ffffff;
+  --light_bg-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--main-title-color);
+}
+
+address {
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+
+.current,
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  font-weight: 700;
+  color: var(--title-text-color);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+}
+
+.logo-web {
+  color: var(--accent-text-color);
+}
+
+.logo-studio {
+  color: var(--logo-dark-color);
+}
+
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
+.contact-link {
+  color: var(--main-text-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--main-title-color);
+  text-align: center;
+}
+
+.main-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-text-color);
+  color: var(--main-title-color);
+}
+
+.main-button:focus,
+.main-button:hover {
+  background-color: var(--accent-buton-color);
+}
+
+/* Приемущества */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.list-title {
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.our-team {
+  background-color: var(--light_bg-color);
+}
+
+.team {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+}
+
+.our-team-member {
+  font-weight: 500;
+  color: #212121;
+}
+
+.footer-section {
+  background-color: var(--dark-bg-color);
+}
+
+.logo-studio-footer,
+.our-address {
+  color: var(--main-title-color);
+}
+.link-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.filter {
+  background-color: var(--filter-button-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-text-color);
+  color: var(--main-title-color);
+}
+
+.list-item-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/* сдесь не применяется font-weight:normal дефолтом (не могу найти почему) */
+.list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-text-color);
+}
