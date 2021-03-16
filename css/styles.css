@@ -164,6 +164,12 @@ p {
   overflow: hidden;
 }
 
+.advantages-item {
+  outline: 1px dashed violet;
+  width: 270px;
+  height: 101px;
+}
+
 .list-title {
   font-size: 14px;
   line-height: 1.17;
@@ -252,13 +258,13 @@ p {
 }
 
 .filter-item-title {
-  outline: 1px solid tomato;
+  outline: 1px dashed green;
   background: #ffffff;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   box-sizing: border-box;
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .list-item-title {
