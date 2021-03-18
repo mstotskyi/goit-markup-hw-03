@@ -20,21 +20,23 @@
   </head>
   <body>
     <!-- Шапка -->
-    <header>
-      <div class="container heder">
-        <nav>
+    <header class="page-header">
+      <div class="container">
+        <nav class="navigation-menu">
           <a href="./index.html" class="logo">
             <span class="logo-web">Web</span><span class="logo-studio">Studio</span></a
           >
-          <ul class="list">
-            <li><a href="./index.html" class="link nav-link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link nav-link">Портфолио</a></li>
-            <li><a href="" class="link nav-link">Контакты</a></li>
+          <ul class="list header-links">
+            <li class="header-list-item"><a href="./index.html" class="link current">Студия</a></li>
+            <li class="header-list-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="header-list-item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="list">
-          <li><a href="mailto:info@devstudio.com" class="link contact-link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link contact-link">+38 096 111 11 11</a></li>
+        <ul class="list header-contacts">
+          <li class="header-list-item">
+            <a href="mailto:info@devstudio.com" class="link contact-link">info@devstudio.com</a>
+          </li>
+          <li class="header-list-item"><a href="tel:+380961111111" class="link contact-link">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -50,10 +52,10 @@
         </section>
       </div>
       <!-- Приемущества -->
-      <section>
-        <div class="container">
+      <section class="container">
+        <div class="advantages">
           <h2 class="visually-hidden">Наши приемущества</h2>
-          <ul class="list">
+          <ul class="list advantages-list">
             <li class="advantages-item">
               <h3 class="title list-title">Внимание к деталям</h3>
               <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -74,19 +76,21 @@
         </div>
       </section>
       <!-- Чем мы занимаемся -->
-      <section class="container">
-        <h2 class="title section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/img_1.jpg" alt="Пишет код" width="370" />
-          </li>
-          <li>
-            <img src="./images/img_2.jpg" alt="Создание макета сайта" width="370" />
-          </li>
-          <li>
-            <img src="./images/img_3.jpg" alt="Дизайн сайта" width="370" />
-          </li>
-        </ul>
+      <section class="about-us">
+        <div class="container">
+          <h2 class="title section-title">Чем мы занимаемся</h2>
+          <ul class="list about-us-list">
+            <li class="about-us-list-item">
+              <img src="./images/img_1.jpg" alt="Пишет код" width="370" />
+            </li>
+            <li class="about-us-list-item">
+              <img src="./images/img_2.jpg" alt="Создание макета сайта" width="370" />
+            </li>
+            <li class="about-us-list-item">
+              <img src="./images/img_3.jpg" alt="Дизайн сайта" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Наша команда -->
       <section class="our-team">
@@ -135,7 +139,7 @@
     </main>
     <!-- Футер -->
     <footer class="footer-section">
-      <div class="footer-container">
+      <div class="container">
         <a href="./index.html" class="logo">
           <span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a
         >
