@@ -83,6 +83,7 @@ img {
 }
 
 .container {
+  outline: 1px solid red;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -221,12 +222,15 @@ img {
 /* Приемущества */
 .advantages-list {
   display: flex;
-  margin-left: -30px;
 }
 
 .advantages-item {
   margin-left: 30px;
   flex-basis: calc((100%-120px) / 4);
+}
+
+.advantages-item:first-child {
+  margin-left: 0;
 }
 /* Чем мы занимаемся */
 .about-us .container {
