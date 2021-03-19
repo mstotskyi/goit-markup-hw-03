@@ -353,3 +353,8 @@ img {
 .list-button-item:last-child {
   margin-right: 0;
 }
+
+.footer-section .logo {
+  display: block;
+  margin-bottom: 20px;
+}
